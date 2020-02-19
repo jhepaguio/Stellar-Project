@@ -1,0 +1,186 @@
+html, body{
+margin:0;
+padding:0;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  }
+
+.navbar {
+  border-top-style: solid;
+  border-top-width: .75rem;
+  border-top-color: #FF5C58;
+  border-bottom-style: solid;
+  border-bottom-width: .75rem;
+  border-bottom-color: #39B42C;
+  padding: 0;
+  background-color: #f5fcff;
+  background-image: url(images/school.png);
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.nav-logo {
+  height: 5rem;
+  margin-left: 2%;
+  border-radius: 100%;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+
+.navbar-toggler {
+  outline: hidden;
+}
+
+@media (max-width: 1000px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+/* banner section */
+#banner {
+  border-left-width: .75rem;
+  border-left-color: #FF5C58;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-right-width: .75rem;
+  border-right-color: #39B42C;
+  color: #fff;
+  padding-top: 0;
+  text-align: center;
+}
+
+#banner .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+.banner-background {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #CCCCFF, #CCDDFF);
+}
+
+.banner-img {
+  height: 12%;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.banner-description {
+  width: 45%;
+  height: 50%;
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.banner-text {
+  font-size: 1.5rem;
+  padding-left: 14%;
+  padding-top: 10%;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+@media (max-width:1000px) {
+  .banner-text {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .banner-description {
+    width: 90%;
+    height: 80%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    right:10%;
+    text-align: justify;
+  }
+}
+
+/* services */
+.carousel {
+  text-align: center;
+    border-left-width: .75rem;
+    border-left-color: #39B42C;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-right-width: .75rem;
+    border-right-color: #FF5C58;
+    background-color: #c1e1ed;
+}
+.carousel-inner .carousel-item img {
+  width: 70% !important;
+  height: 70% !important;
+  margin-left: 13%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-width: .75rem;
+  border-style: solid;
+  border-top-color: #39B42C;
+  border-left-color: #FF5C58;
+  border-right-color: #FF5C58;
+  border-bottom-color: #39B42C;
+}
+
+.carousel-caption {
+  background-color: black;
+  opacity: 0.9;
+  width: 65%;
+}
+
+.carousel-indicators {
+  position: relative;
+  right: 10%;
+}
+/* other color scheme
+#CCBBFF, #CCCCFF, #CCDDFF */
+
+#contact-us {
+  border-left-width: .75rem;
+  border-left-color: #FF5C58;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-right-width: .75rem;
+  border-right-color: #39B42C;
+  background-color: #ccbbff;
+  padding: 5%;
+  text-align: center;
+}
+
+.contact {
+  font-weight: bold;
+  font-size: 1rem;
+}
